@@ -1,0 +1,166 @@
+* {
+    margin: 0; 
+}
+
+body {
+    font-family: roboto;
+}
+
+/*------ Change only FONT: family, weight, style & color ------*/
+
+header, footer, main .top-description {
+    background-color: #1F2937;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+button, .call-to-action {
+    background-color: #3882F6;
+}
+
+button {
+    color: white;
+    font-size: medium;
+}
+
+.feature-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.review {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+/* Header */
+.logo {
+    color: white;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+/* Content */
+.top-right-description-box {
+    background-color: #6C747D;
+}
+.features p {
+    color: grey;
+}
+.call-to-action-title {
+    color: white;
+}
+
+/*--------------- LAYOUT ---------------*/
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* content */
+header, .top-description{
+    padding: 1% 13% 5%;
+}
+.top-description {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    
+}
+.top-right-description-box {
+    padding: 100px 120px;
+    flex: 1
+}
+.top-left-description {
+    width: 50%
+}
+.top-sign-up {
+    padding: 7px 22px;
+    border-radius: 6px;
+    border-style: none;
+    margin-top: 15px;
+}
+
+/* features */
+.features {
+    text-align: center;
+    padding: 50px 250px;
+}
+.feature-box {
+    border: 4px #3882F6;
+    width: 180px;
+    height: 180px;
+    border-style: solid;
+    border-radius: 16px;
+    margin-bottom: 5px;
+}
+.feature-items {
+   display: flex;
+   gap: 60px;
+   justify-content: center;
+   text-align: center;
+}
+.feature {
+    max-width:180px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/* testimonial */
+.testimonial {
+    padding: 120px 300px;
+}
+.customer-name {
+    text-align: right;
+}
+
+/* call-to-action */
+.call-to-action {
+    margin: 100px 190px;
+    border-radius: 5px;
+    display: flex;
+    padding: 50px 120px;
+    justify-content: space-between;
+}
+.bottom-sign-up button {
+    border: solid 2px white;
+    border-radius: 6px;
+    padding: 8px 30px;
+    align-self: center;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 40px;
+}
